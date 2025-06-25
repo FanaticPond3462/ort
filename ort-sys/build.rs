@@ -321,7 +321,6 @@ fn prepare_libort_dir() -> (PathBuf, bool) {
 		{
 			#[cfg(any(
 				feature = "tensorrt",
-				feature = "openvino",
 				feature = "onednn",
 				feature = "nnapi",
 				feature = "coreml",
